@@ -43,8 +43,7 @@ const ms = 3000;
             if(!
                 /Blob|ウンチゲボザウルス/
                 .test(element.innerText)) {
-                console.log(element.innerText);
-                element.remove();
+                    element.remove();
             }
         });
     }
